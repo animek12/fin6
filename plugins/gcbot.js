@@ -24,29 +24,29 @@ let fetch = require('node-fetch')
  `.trim() 
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
-               sourceUrl: 'https://youtu.be/-tKVN2mAKRI', 
+               sourceUrl: 'https://youtube.com/channel/UCCZFKpk85uGzGdGk9kUZUIA', 
                title: 'Official group', 
-               body: 'Haruno Bot', 
+               body: 'FIN', 
                thumbnail: pp 
              } 
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Join Juga Group Official Cute Bot!* 
+ *Join Juga Group Official Fin Bot!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
- *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+ *Group * 
+https://linktr.ee/fin222
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
+        	sourceUrl: 'https://www.tiktok.com/@alvin_ch1',
             title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
-          thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
+            body: 'Fin-MD By Alfin',
+          thumbnail: await (await fetch('https://i.postimg.cc/Y0v0xpCM/lol.jpg')).buffer()
         }
      }
     })
