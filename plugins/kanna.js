@@ -14,7 +14,7 @@ key: {
 						"jpegThumbnail": await (await fetch('https://telegra.ph/file/dd124552c49cb0a55bb83.jpg')).buffer(), //Gambarnye
 					},
 					"title": `Hai ${conn.getName(m.sender)}`, //Kasih namalu 
-					"description": `HAORI - BOTZ MADE BY ZIVFURR ❤️`, 
+					"description": `HAORI - BOTZ MADE BY FIN ❤️`, 
 					"currencyCode": "Rp",
 					"priceAmount1000": "500000",
 					"retailerId": `ppk`,
@@ -29,7 +29,7 @@ let res = await (await fetch('https://raw.githubusercontent.com/Alfarqun/databas
  let json = await res.json(); 
  let url = json[Math.floor(Math.random() * json.length)] 
 await conn.sendButtonImg(m.chat, await (await fetch(url)).buffer(), 'Kawai >_<', wm, 'NEXT', '.kanna', ftoko, {
-    quoted: m, contextInfo:{externalAdReply: {title: 'Nih Kak Foto Kanna Nya', body: `${pickRandom(['Furry Indonesia :3', 'Suka Pokemon Nggak Kak :3', 'Kangen Haori Nggak?', 'Udah makan belum kak?', 'Udah Makan Belum?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'Jangan spam ya kak!', 'Jangan lupa donasi yak kak! QωQ', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! UωU', 'Haori Sayang Kamu :3', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, sourceUrl: 'https://bit.ly/3N024o9', thumbnail: await (await fetch('https://telegra.ph/file/42eb819fd76aee00f08a8.jpg')).buffer(),}} 
+    quoted: m, contextInfo:{externalAdReply: {title: 'Nih Kak Foto Kanna Nya', body: `${pickRandom(['Furry Indonesia :3', 'Suka Pokemon Nggak Kak :3', 'Kangen Haori Nggak?', 'Udah makan belum kak?', 'Udah Makan Belum?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'Jangan spam ya kak!', 'Jangan lupa donasi yak kak! QωQ', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! UωU', 'Haori Sayang Kamu :3', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`, sourceUrl: 'https://linktr.ee/fin222', thumbnail: await (await fetch('https://telegra.ph/file/42eb819fd76aee00f08a8.jpg')).buffer(),}} 
     })
 }
 function pickRandom(list) {
